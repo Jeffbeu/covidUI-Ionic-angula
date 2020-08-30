@@ -1,5 +1,5 @@
 # covidUI-Ionic-angula
-Criado na aula de ionic e angula um teste esta bem simples veja você mesmo e modifique e crie algo como quiser e como achar melhor se vira 
+Projeto Aplicativo da aula de Criação de app minha Ui sobre Covid 19 foi adicionado uma tela de covid tracker global
 
 ![WhatsApp Image 2020-08-21 at 22 47 07 (1)](https://user-images.githubusercontent.com/56686731/91060712-aa9d1b00-e601-11ea-91ee-f3f93925cd55.jpeg)
 ![WhatsApp Image 2020-08-21 at 22 47 07 (2)](https://user-images.githubusercontent.com/56686731/91060722-abce4800-e601-11ea-8797-584ae12fd1da.jpeg)
