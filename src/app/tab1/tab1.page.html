@@ -1,0 +1,50 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Covid-19 
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<ion-card>
+  <ion-card-header>
+    <ion-card-subtitle>Relatorio da covid Global</ion-card-subtitle>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-item>
+      <ion-icon name= "body-outline" slot="start"></ion-icon>
+      <ion-label color="primary">Total de Confirmados</ion-label>
+      <ion-text>{{ global?.TotalConfirmed }}</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="heart-outline" slot="start"></ion-icon>
+      <ion-label color="secundary">Total Recuperados</ion-label>
+      <ion-text>{{global?.TotalRecovered}}</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="skull-outline" slot="start"></ion-icon>
+      <ion-label color="warning">Novas Mortes</ion-label>
+      <ion-text>{{ global?.NewDeaths }}</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="skull-outline" slot="start"></ion-icon>
+      <ion-label color="danger">Total de Mortes </ion-label>
+      <ion-text>{{ global?.TotalDeaths }}</ion-text>
+    </ion-item>
+  </ion-card-content>
+</ion-card>
+<ion-card>
+  <ion-card-header><ion-card-subtitle>Recuperados</ion-card-subtitle></ion-card-header>
+      <ion-card-content>
+        <canvas #barChart></canvas>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header><ion-card-subtitle>Casos</ion-card-subtitle></ion-card-header>
+      <ion-card-content>
+        <canvas #horizontalBar></canvas>
+      </ion-card-content>
+    </ion-card>
+</ion-content>
